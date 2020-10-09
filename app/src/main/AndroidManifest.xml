@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".kuis.ResultQuizActivity"></activity>
+        <activity android:name=".materi.MenuGenActivity"></activity>
+        <activity android:name=".materi.ContohGenActivity" />
+        <activity android:name=".materi.ContohJenisActivity" />
+        <activity android:name=".materi.MateriGenActivity" />
+        <activity android:name=".materi.MateriJenisActivity" />
+        <activity android:name=".kuis.ResultQuizActivity" />
         <activity android:name=".menu.GlosariumActivity" />
         <activity android:name=".menu.DapusActivity" />
         <activity android:name=".menu.ProfilActivity" />
