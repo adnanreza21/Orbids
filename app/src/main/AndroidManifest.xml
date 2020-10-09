@@ -9,6 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".kuis.ResultQuizActivity"></activity>
+        <activity android:name=".menu.GlosariumActivity" />
+        <activity android:name=".menu.DapusActivity" />
+        <activity android:name=".menu.ProfilActivity" />
+        <activity android:name=".menu.KuisActivity" />
+        <activity android:name=".menu.MateriActivity" />
+        <activity android:name=".menu.MengenalActivity" />
+        <activity android:name=".menu.PetunjukActivity" />
+        <activity android:name=".menu.KompetensiActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
