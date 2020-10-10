@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.amazing.orbids.limaM.MengamatiActivity;
 import com.amazing.orbids.menu.DapusActivity;
 import com.amazing.orbids.menu.GlosariumActivity;
 import com.amazing.orbids.menu.KompetensiActivity;
@@ -50,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.card1 : i = new Intent(this, KompetensiActivity.class);startActivity(i);break;
             case R.id.card2: i = new Intent(this, PetunjukActivity.class);startActivity(i);break;
             case R.id.card3 : i = new Intent(this, MengenalActivity.class);startActivity(i);break;
-            case R.id.card4 : i = new Intent(this, MateriActivity.class);startActivity(i);break;
+            case R.id.card4 : i = new Intent(this, MengamatiActivity.class);startActivity(i);break;
             case R.id.card5 : i = new Intent(this, KuisActivity.class);startActivity(i);break;
             case R.id.card6 : i = new Intent(this, ProfilActivity.class);startActivity(i);break;
             case R.id.card7 : i = new Intent(this, DapusActivity.class);startActivity(i);break;

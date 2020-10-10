@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".materi.MenuGenActivity"></activity>
+        <activity android:name=".limaM.MengkomunikasiActivity"></activity>
+        <activity android:name=".limaM.MengumpulkanActivity" />
+        <activity android:name=".limaM.MenanyaActivity" />
+        <activity android:name=".limaM.MengamatiActivity" />
+        <activity android:name=".materi.MenuGenActivity" />
         <activity android:name=".materi.ContohGenActivity" />
         <activity android:name=".materi.ContohJenisActivity" />
         <activity android:name=".materi.MateriGenActivity" />
