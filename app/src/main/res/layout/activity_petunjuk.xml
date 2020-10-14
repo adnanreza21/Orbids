@@ -122,7 +122,7 @@
                 android:layout_marginLeft="@dimen/_5sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginRight="@dimen/_5sdp"
-                android:src="@drawable/book1" />
+                android:src="@drawable/orchid" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -150,7 +150,7 @@
                 android:layout_marginLeft="@dimen/_5sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginRight="@dimen/_5sdp"
-                android:src="@drawable/gbrsilabus" />
+                android:src="@drawable/book1" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -179,6 +179,33 @@
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginRight="@dimen/_5sdp"
                 android:src="@drawable/exam" />
+ <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="6. Menu Profil"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_35sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Untuk menuju ke halaman profil"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_12sdp" />
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_150sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:src="@drawable/boss" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -206,7 +233,7 @@
                 android:layout_marginLeft="@dimen/_5sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginRight="@dimen/_5sdp"
-                android:src="@drawable/gbrsilabus" />
+                android:src="@drawable/vocabulary" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -234,7 +261,8 @@
                 android:layout_marginLeft="@dimen/_5sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginRight="@dimen/_5sdp"
-                android:src="@drawable/exam" />
+                android:layout_marginBottom="@dimen/_25sdp"
+                android:src="@drawable/dictionary" />
 
 
         </LinearLayout>
