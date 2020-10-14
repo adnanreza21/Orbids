@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Splash2Activity">
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_70sdp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gambar"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:text="Selamat datang di Aplikasi Orbids !"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_marginRight="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:text="Orbids merupakan aplikasi pembelajaran biologi yang khusus membahas keanekaragaman jenis dan genetik pada Anggrek. Dengan aplikasi ini teman2 diharapkan mampu memahami konsep keanekaragaman jenis dan genetik dengan mudah. Jadi silahkan dipelajari dengan seksama yaa !"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16sdp" />
+
+    <Button
+        android:id="@+id/mulai"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_24sdp"
+        android:background="@drawable/custom_button_white"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/_8sdp"
+        android:text="Mulai"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_14sdp" />
+</RelativeLayout>

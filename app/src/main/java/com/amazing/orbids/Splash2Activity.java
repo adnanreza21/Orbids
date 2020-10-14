@@ -1,4 +1,4 @@
-package com.amazing.orbids.limaM;
+package com.amazing.orbids;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,27 +7,25 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.amazing.orbids.R;
-import com.amazing.orbids.menu.MateriActivity;
+public class Splash2Activity extends AppCompatActivity {
 
-public class MengkomunikasiActivity extends AppCompatActivity {
-private static Button button;
+    private static Button button;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mengkomunikasi);
-        button = (Button) findViewById(R.id.answer1);
+        setContentView(R.layout.activity_splash2);
+
+        button = (Button) findViewById(R.id.mulai);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openMateriActivity();
+                openHomeActivity();
             }
         });
     }
-
-    public void openMateriActivity() {
-        Intent intent = new Intent(this, MateriActivity.class);
+    public void openHomeActivity(){
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
-        finish();
     }
 }
