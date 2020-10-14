@@ -153,7 +153,7 @@
                             android:layout_width="@dimen/_90sdp"
                             android:layout_height="@dimen/_90sdp"
                             android:padding="@dimen/_10sdp"
-                            android:src="@drawable/book2" />
+                            android:src="@drawable/orchid" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -347,7 +347,7 @@
                             android:layout_width="@dimen/_90sdp"
                             android:layout_height="@dimen/_90sdp"
                             android:padding="@dimen/_10sdp"
-                            android:src="@drawable/book2" />
+                            android:src="@drawable/vocabulary" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -391,7 +391,7 @@
                             android:layout_width="@dimen/_90sdp"
                             android:layout_height="@dimen/_90sdp"
                             android:padding="@dimen/_10sdp"
-                            android:src="@drawable/book1" />
+                            android:src="@drawable/dictionary" />
 
                         <TextView
                             android:layout_width="wrap_content"

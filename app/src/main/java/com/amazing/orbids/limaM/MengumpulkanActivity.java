@@ -27,5 +27,6 @@ private static Button button;
     public void openMateriActivity() {
         Intent intent = new Intent(this, MengkomunikasiActivity.class);
         startActivity(intent);
+        finish();
     }
 }

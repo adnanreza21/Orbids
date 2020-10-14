@@ -29,5 +29,6 @@ public class MenanyaActivity extends AppCompatActivity {
     public void openMateriActivity() {
         Intent intent = new Intent(this, MengumpulkanActivity.class);
         startActivity(intent);
+        finish();
     }
 }
