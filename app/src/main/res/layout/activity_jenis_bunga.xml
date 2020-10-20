@@ -1,9 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".anekajenis.JenisBungaActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/txt11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="Contoh Keanekaragaman Jenis Organ Bunga"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txt11">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="3. Bunga"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Perhatikan foto dibawah, apakah terdapat perbedaan pada 7 jenis struktur bunga anggrek tersebut ? Jelaskan alasanmu !"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_330sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:src="@drawable/jenis_bunga_01" />
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_330sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:src="@drawable/jenis_bunga_02" />
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_370sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:src="@drawable/jenis_bunga_03" />
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_310sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:src="@drawable/jenis_bunga_04" />
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_250sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:src="@drawable/jenis_bunga_05" />
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_250sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:src="@drawable/jenis_bunga_06" />
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_330sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:src="@drawable/jenis_bunga_07" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_25sdp"
+                android:text="Rhyncostylis retusa (gbr a) memiliki bunga berwarna putih dengan bercak ungu. Sepal berbentuk oval dan petals membengkok. Phalaenopsis amabillis (gbr b) memiliki bunga dengan warna putih dengan perhiasan bunga tersusun membulat serta memiliki petal yang besar. Phalaenopsis bellina (gbr c) memiliki bunga dengan perpaduan warna putih kuning dan ungu dengan bentuk yang menyerupai bintang. Acriopsis lilifolia (gbr d) memiliki bunga berwarna putih dengan variasi ungu, bunganya berukuran kecil, memiliki tangkai bunga yang panjang dan bisanya tumbuh menjuntai. Spathoglottis plicata  (gbr e) memiliki bunga berwarna putih dan ada warna keungu-kuningan di sekitar labelum, bentuk bunga seperti bintang dan biasanya bertandan dengan tangkai bunga yang panjang, Coeloegyn spesiosa (gbr f) memiliki bunga berwarna putih kekuningan dengan labelum bercorak merah. Vanda tricolor (gbr g) memiliki bunga berwarna putih dengan corak merah di semua bagian perhiasaan bunganya."
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

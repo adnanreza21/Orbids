@@ -28,6 +28,33 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Keanekaragaman tingkat gen diartikan sebagai keanekaragaman yang timbul karena adanya perbedaan susunan gen sehingga menyebabkan variasi antar individu dalam spesies (sifat). Individu di setiap spesies mempunyai jumlah informasi genetik yang terkandung di dalam masing-masing individu. CONTOH KEANEKARAGAMAN GENETIK PADA ANGGREK TERJADI PADA SPESIES Spathoglotis Plicata."
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Berdasarkan penelitian yang pernah dilakukan Suyitno et all (2019) keanekaragaman genetik dapat dilihat dari beberapa ciri morfologinya. Varian Spathoglotis plicata tampak pada panjang dan lebar daun, jumlah rumpun, tinggi tanaman (habitus), ukuran dan variasi warna bunga."
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Sumber adanya variasi atau faktor penyebab terjadinya variasi tersebut diantaranya yaitu faktor rekombinasi genetik oleh persilangan variasi genotip (perkawinan). Selain itu variasi juga diakibatkan oleh adanya mutasi, variasi yang timbul dengan adanya adaptasi terhadap faktor lingkungan (adanya perubahan struktural-fungsional-dan perilaku)."
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_12sdp" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -56,11 +83,11 @@
                             android:src="@drawable/panjang_daun" />
 
                         <TextView
-                            android:textAlignment="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="@dimen/_10sdp"
                             android:text="Panjang dan Lebar Daun"
+                            android:textAlignment="center"
                             android:textSize="@dimen/_13sdp"
                             android:textStyle="bold" />
 
@@ -197,12 +224,12 @@
                             android:src="@drawable/bunga" />
 
                         <TextView
-                            android:textAlignment="center"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="@dimen/_10sdp"
                             android:layout_marginLeft="@dimen/_2sdp"
+                            android:layout_marginTop="@dimen/_10sdp"
                             android:text="Variasi Warna Bunga"
+                            android:textAlignment="center"
                             android:textSize="@dimen/_13sdp"
                             android:textStyle="bold" />
 
