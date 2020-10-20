@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Splash2Activity"></activity>
+        <activity android:name=".anekagen.GenLabelumActivity"></activity>
+        <activity android:name=".anekagen.GenBungaActivity" />
+        <activity android:name=".anekagen.GenTinggiActivity" />
+        <activity android:name=".anekagen.GenRumpunActivity" />
+        <activity android:name=".anekagen.GenPanjangActivity" />
+        <activity android:name=".anekajenis.JenisLabelumActivity" />
+        <activity android:name=".anekajenis.JenisBungaActivity" />
+        <activity android:name=".anekajenis.JenisDaunActivity" />
+        <activity android:name=".anekajenis.JenisBatangActivity" />
+        <activity android:name=".Splash2Activity" />
         <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
