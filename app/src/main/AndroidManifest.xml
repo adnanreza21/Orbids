@@ -31,8 +31,6 @@
         <activity android:name=".limaM.MenanyaActivity" />
         <activity android:name=".limaM.MengamatiActivity" />
         <activity android:name=".materi.MenuGenActivity" />
-        <activity android:name=".materi.ContohGenActivity" />
-        <activity android:name=".materi.ContohJenisActivity" />
         <activity android:name=".materi.MateriGenActivity" />
         <activity android:name=".materi.MateriJenisActivity" />
         <activity android:name=".kuis.ResultQuizActivity" />
