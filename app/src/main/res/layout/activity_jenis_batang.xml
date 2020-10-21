@@ -47,6 +47,15 @@
                 android:textSize="@dimen/_12sdp"
                 android:textStyle="bold" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Ada beberapa tipe batang dari penampakan gambar batang anggrek diatas. Batang anggrek hanya memiliki 2 tipe pertumbuhan batang yaitu secara SIMPODIAL dan MONOPODIAL. Tipe batang simpodial ditunjukan pada anggrek Rhyncostylis retusa (gbr a), Phalaenopsis amabillis  (gbr b), Spathoglottis plicata  (gbr e), dan Phalaenopsis bellina (gbr c). Sedangkan tipe batang monopodial ditunjukan pada anggrek jenis Acriopsis lilifolia (gbr d), Coeloegyn spesiosa (gbr f) dan Vanda tricolor (gbr g)."
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_12sdp" />
+
             <com.zolad.zoominimageview.ZoomInImageView
                 android:layout_width="@dimen/_250sdp"
                 android:layout_height="@dimen/_150sdp"
@@ -108,17 +117,9 @@
                 android:layout_marginLeft="@dimen/_5sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_25sdp"
                 android:src="@drawable/jenis_batang_07" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/_15sdp"
-                android:layout_marginTop="@dimen/_5sdp"
-                android:layout_marginBottom="@dimen/_25sdp"
-                android:text="Ada beberapa tipe batang dari penampakan gambar batang anggrek diatas. Batang anggrek hanya memiliki 2 tipe pertumbuhan batang yaitu secara SIMPODIAL dan MONOPODIAL. Tipe batang simpodial ditunjukan pada anggrek Rhyncostylis retusa (gbr a), Phalaenopsis amabillis  (gbr b), Spathoglottis plicata  (gbr e), dan Phalaenopsis bellina (gbr c). Sedangkan tipe batang monopodial ditunjukan pada anggrek jenis Acriopsis lilifolia (gbr d), Coeloegyn spesiosa (gbr f) dan Vanda tricolor (gbr g)."
-                android:textColor="@color/grey"
-                android:textSize="@dimen/_12sdp" />
 
         </LinearLayout>
     </ScrollView>

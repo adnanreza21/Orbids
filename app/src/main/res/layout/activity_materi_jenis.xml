@@ -209,7 +209,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="@dimen/_10sdp"
-                            android:text="Labelum"
+                            android:text="Labellum"
                             android:textSize="@dimen/_13sdp"
                             android:textStyle="bold" />
 
@@ -224,7 +224,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:padding="@dimen/_5sdp"
-                            android:text="Materi Keanekaragaman Jenis Labelum Anggrek"
+                            android:text="Materi Keanekaragaman Jenis Labellum Anggrek"
                             android:textColor="@color/darkgrey" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>

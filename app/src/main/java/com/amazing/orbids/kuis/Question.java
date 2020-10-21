@@ -29,7 +29,7 @@ public class Question {
             "9. Perhatikan gambar berikut !\n" +
                     "Kedua gambar diatas menunjukan adanya keanekaragaman tingkat ...",
             "10. Perhatikan gambar berikut !\n" +
-                    "Dari gambar bunga diatas manakah bagian yang disebut dengan labelum/bibir bunga  ...",
+                    "Dari gambar bunga diatas manakah bagian yang disebut dengan labellum/bibir bunga  ...",
 
     };
 

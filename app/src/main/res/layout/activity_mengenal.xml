@@ -22,12 +22,10 @@
         android:layout_height="match_parent"
         android:layout_below="@id/txt11">
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
 
             <TextView
                 android:layout_width="wrap_content"
@@ -166,7 +164,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_5sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="Bagian - bagian Anggrel"
+                android:text="Bagian - bagian Anggrek"
                 android:textColor="@color/grey"
                 android:textSize="@dimen/_12sdp"
                 android:textStyle="bold" />
@@ -242,14 +240,34 @@
                 android:text="Struktur bunga anggrek adalah sebagai berikut:"
                 android:textColor="@color/grey"
                 android:textSize="@dimen/_12sdp" />
+
             <com.zolad.zoominimageview.ZoomInImageView
-                android:layout_width="@dimen/_270sdp"
-                android:layout_height="@dimen/_300sdp"
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_338sdp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="@dimen/_5sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginRight="@dimen/_5sdp"
                 android:src="@drawable/gbrmengenal2" />
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_250sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:src="@drawable/gbrmengenal2_b" />
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="@dimen/_250sdp"
+                android:layout_height="@dimen/_338sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:src="@drawable/gbrmengenal2_c" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

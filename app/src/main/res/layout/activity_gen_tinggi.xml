@@ -48,6 +48,15 @@
                 android:textSize="@dimen/_12sdp"
                 android:textStyle="bold" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Selain panjang daun dan banyak rumpun variasi Spathoglotis plicata juga terlihat pada tinggi tanaman. Tinggi tanaman bunga pada gambar A lebih pendek daripada gambar B dan C."
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_12sdp" />
+
             <com.zolad.zoominimageview.ZoomInImageView
                 android:layout_width="@dimen/_250sdp"
                 android:layout_height="@dimen/_320sdp"
@@ -73,17 +82,9 @@
                 android:layout_marginLeft="@dimen/_5sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_25sdp"
                 android:src="@drawable/gen_tinggi_03" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/_15sdp"
-                android:layout_marginTop="@dimen/_5sdp"
-                android:layout_marginBottom="@dimen/_25sdp"
-                android:text="Selain panjang daun dan banyak rumpun variasi Spathoglotis plicata juga terlihat pada tinggi tanaman. Tinggi tanaman bunga pada gambar A lebih pendek daripada gambar B dan C."
-                android:textColor="@color/grey"
-                android:textSize="@dimen/_12sdp" />
 
         </LinearLayout>
     </ScrollView>

@@ -46,6 +46,14 @@
                 android:textColor="@color/grey"
                 android:textSize="@dimen/_12sdp"
                 android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Variasi genetik pada Spathoglotis Plicata terlihat sangat jelas dan spesifik pada ukuran dan warna bunga. Terdapat beberapa warna bunga anggrek Spathoglotis plicata diantaranya warna putih, putih keunguan (pink), ungu muda, ungu merah dan ungu."
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_12sdp" />
 
             <com.zolad.zoominimageview.ZoomInImageView
                 android:layout_width="@dimen/_250sdp"
@@ -81,17 +89,8 @@
                 android:layout_marginLeft="@dimen/_5sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginRight="@dimen/_5sdp"
-                android:src="@drawable/gen_bunga_04" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/_15sdp"
-                android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginBottom="@dimen/_25sdp"
-                android:text="Variasi genetik pada Spathoglotis Plicata terlihat sangat jelas dan spesifik pada ukuran dan warna bunga. Terdapat beberapa warna bunga anggrek Spathoglotis plicata diantaranya warna putih, putih keunguan (pink), ungu muda, ungu merah dan ungu."
-                android:textColor="@color/grey"
-                android:textSize="@dimen/_12sdp" />
+                android:src="@drawable/gen_bunga_04" />
 
         </LinearLayout>
     </ScrollView>
