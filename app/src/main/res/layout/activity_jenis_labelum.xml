@@ -47,15 +47,6 @@
                 android:textSize="@dimen/_12sdp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/_20sdp"
-                android:layout_marginTop="@dimen/_5sdp"
-                android:text="Rhyncostylis retusa (gbr a) memiliki labellum dengan ujung berwarna putih dan tengah berwarna biru keunguan. Phalaenopsis amabillis  (gbr b) memiliki labellum dengan warna putih ke kuningan dengan corak dot di tengah berwarna merah, labellum berbentuk belah ketupat dengan ujung memanjang seperti lidah ular. Phalaenopsis bellina (gbr c) memiliki labellum berwarna ungu kekuningan dengan bentuk belah ketupat. Acriopsis lilifolia (gbr d) memiliki labellum berwarna kuning ke unguan dengan bentuk sendok, Spathoglottis plicata  (gbr e) labellum berwarna putih dan ungu-kekuningan di pangkal. Bentuknya agak bulat dengan lekuk di ujung. Coeloegyn spesiosa (gbr f) labellum berwarna putih kekuningan dengan corak dot merah dari tengah sampai pangkal, bentuknya seperti lidah dengan tepian bergerigi. Vanda tricolor (gbr g) labellum berwarna ungu di ujung dan putih disekitar pangkal, berbentuk seperti lidah dengan lekuk di ujung."
-                android:textColor="@color/grey"
-                android:textSize="@dimen/_12sdp" />
-
             <com.zolad.zoominimageview.ZoomInImageView
                 android:layout_width="@dimen/_250sdp"
                 android:layout_height="@dimen/_190sdp"
@@ -117,9 +108,17 @@
                 android:layout_marginLeft="@dimen/_5sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginRight="@dimen/_5sdp"
-                android:layout_marginBottom="@dimen/_25sdp"
-                android:src="@drawable/jenis_labelum_07" />
 
+                android:src="@drawable/jenis_labelum_07" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_25sdp"
+                android:text="Rhyncostylis retusa (gbr a) memiliki labellum dengan ujung berwarna putih dan tengah berwarna biru keunguan. Phalaenopsis amabillis  (gbr b) memiliki labellum dengan warna putih ke kuningan dengan corak dot di tengah berwarna merah, labellum berbentuk belah ketupat dengan ujung memanjang seperti lidah ular. Phalaenopsis bellina (gbr c) memiliki labellum berwarna ungu kekuningan dengan bentuk belah ketupat. Acriopsis lilifolia (gbr d) memiliki labellum berwarna kuning ke unguan dengan bentuk sendok, Spathoglottis plicata  (gbr e) labellum berwarna putih dan ungu-kekuningan di pangkal. Bentuknya agak bulat dengan lekuk di ujung. Coeloegyn spesiosa (gbr f) labellum berwarna putih kekuningan dengan corak dot merah dari tengah sampai pangkal, bentuknya seperti lidah dengan tepian bergerigi. Vanda tricolor (gbr g) labellum berwarna ungu di ujung dan putih disekitar pangkal, berbentuk seperti lidah dengan lekuk di ujung."
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_12sdp" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

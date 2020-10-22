@@ -121,7 +121,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:padding="@dimen/_5sdp"
-                            android:text="Terdiri dari 3 Sub Materi Tentang Basis Data"
+                            android:text="Petunjuk Menggunakan Aplikasi Orbids"
                             android:textColor="@color/darkgrey" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -174,7 +174,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:padding="@dimen/_5sdp"
-                            android:text="Kompetensi Dasar, Indikator, Tujuan Pembelajaran"
+                            android:text="Materi Tentang Mengenal Anggrek"
                             android:textColor="@color/darkgrey" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -218,7 +218,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:padding="@dimen/_5sdp"
-                            android:text="Terdiri dari 3 Sub Materi Tentang Basis Data"
+                            android:text="Keanekaragaman Jenis dan Gen Anggrek"
                             android:textColor="@color/darkgrey" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -271,7 +271,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:padding="@dimen/_5sdp"
-                            android:text="Kompetensi Dasar, Indikator, Tujuan Pembelajaran"
+                            android:text="Terdiri dari 10 Soal Pilihan Ganda"
                             android:textColor="@color/darkgrey" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -315,7 +315,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:padding="@dimen/_5sdp"
-                            android:text="Terdiri dari 3 Sub Materi Tentang Basis Data"
+                            android:text="Berisi Profil Pengembang Aplikasi"
                             android:textColor="@color/darkgrey" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -368,7 +368,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:padding="@dimen/_5sdp"
-                            android:text="Kompetensi Dasar, Indikator, Tujuan Pembelajaran"
+                            android:text="Berisi Daftar Pustaka dari Materi"
                             android:textColor="@color/darkgrey" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -412,7 +412,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:padding="@dimen/_5sdp"
-                            android:text="Terdiri dari 3 Sub Materi Tentang Basis Data"
+                            android:text="Berisi Glosarium dari Materi"
                             android:textColor="@color/darkgrey" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>

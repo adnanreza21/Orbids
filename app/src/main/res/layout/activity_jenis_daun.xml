@@ -47,15 +47,6 @@
                 android:textSize="@dimen/_12sdp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/_20sdp"
-                android:layout_marginTop="@dimen/_5sdp"
-                android:text="Pada anggrek jenis Rhyncostylis retusa (gbr a) memiliki daun dengan bentuk linier/pita panjang  dengan daging yang tebal , Phalaenopsis amabillis  (gbr b) memiliki daun dengan bentuk obovate atau bulat telur kebalik dengan permukaan daun mengkilat dan berdaging tebal,  Phalaenopsis bellina (gbr c) memilik bentuk daun eliptik/jorong dengan permukaan mengkilap dan lebar, Acriopsis lilifolia (gbr d) memiliki daun dengan bentuk linier/pita pendek dan lebar daun kecil, Spathoglottis plicata  (gbr e)  memiliki daun dengan bentuk subulate/jarum yang panjang dengan permukaan yang agak kasar dan tulang daun yang terlihat , Coeloegyn spesiosa (gbr f) memiliki bentuk daun trullate/sekop dan tipis, dan Vanda tricolor (gbr g) memiliki daun dengan bentuk linier/pita panjang  dengan daging yang tebal."
-                android:textColor="@color/grey"
-                android:textSize="@dimen/_12sdp" />
-
             <com.zolad.zoominimageview.ZoomInImageView
                 android:layout_width="@dimen/_250sdp"
                 android:layout_height="@dimen/_220sdp"
@@ -103,7 +94,7 @@
 
             <com.zolad.zoominimageview.ZoomInImageView
                 android:layout_width="@dimen/_250sdp"
-                android:layout_height="@dimen/_270sdp"
+                android:layout_height="@dimen/_280sdp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="@dimen/_5sdp"
                 android:layout_marginTop="@dimen/_5sdp"
@@ -117,9 +108,17 @@
                 android:layout_marginLeft="@dimen/_5sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginRight="@dimen/_5sdp"
-                android:layout_marginBottom="@dimen/_25sdp"
                 android:src="@drawable/jenis_daun_07" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_25sdp"
+                android:text="Pada anggrek jenis Rhyncostylis retusa (gbr a) memiliki daun dengan bentuk linier/pita panjang  dengan daging yang tebal , Phalaenopsis amabillis  (gbr b) memiliki daun dengan bentuk obovate atau bulat telur kebalik dengan permukaan daun mengkilat dan berdaging tebal,  Phalaenopsis bellina (gbr c) memilik bentuk daun eliptik/jorong dengan permukaan mengkilap dan lebar, Acriopsis lilifolia (gbr d) memiliki daun dengan bentuk linier/pita pendek dan lebar daun kecil, Spathoglottis plicata  (gbr e)  memiliki daun dengan bentuk subulate/jarum yang panjang dengan permukaan yang agak kasar dan tulang daun yang terlihat , Coeloegyn spesiosa (gbr f) memiliki bentuk daun trullate/sekop dan tipis, dan Vanda tricolor (gbr g) memiliki daun dengan bentuk linier/pita panjang  dengan daging yang tebal."
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_12sdp" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

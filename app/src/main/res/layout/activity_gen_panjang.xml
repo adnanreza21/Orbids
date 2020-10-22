@@ -47,18 +47,10 @@
                 android:textColor="@color/grey"
                 android:textSize="@dimen/_12sdp"
                 android:textStyle="bold" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/_20sdp"
-                android:layout_marginTop="@dimen/_5sdp"
-                android:text="Daun Spathoglotis plicata memiliki variasi ukuran panjang dan lebar yang berbeda saat dewasa walaupun ditanam di tempat dan keadaan yang sama. Hal itu tentunya menjadikan perbedaan antara Spathoglotis plicata yang memiliki panjang 43 dan lebar 4 cm (gbr a) dengan yang hanya memiliki panjang 33 cm dan lebar 2.5 cm (gbr b). Sehingga panjang dan lebar daun setiap individu sphathoglotis plicata dapat menjadi petunjuk variasi genetik dalam spesies Sphatoglotis plicata."
-                android:textColor="@color/grey"
-                android:textSize="@dimen/_12sdp" />
 
             <com.zolad.zoominimageview.ZoomInImageView
                 android:layout_width="@dimen/_250sdp"
-                android:layout_height="@dimen/_320sdp"
+                android:layout_height="@dimen/_330sdp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="@dimen/_5sdp"
                 android:layout_marginTop="@dimen/_5sdp"
@@ -67,7 +59,7 @@
 
             <com.zolad.zoominimageview.ZoomInImageView
                 android:layout_width="@dimen/_250sdp"
-                android:layout_height="@dimen/_320sdp"
+                android:layout_height="@dimen/_330sdp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="@dimen/_5sdp"
                 android:layout_marginTop="@dimen/_5sdp"
@@ -76,13 +68,21 @@
 
             <com.zolad.zoominimageview.ZoomInImageView
                 android:layout_width="@dimen/_250sdp"
-                android:layout_height="@dimen/_320sdp"
+                android:layout_height="@dimen/_330sdp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="@dimen/_5sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginRight="@dimen/_5sdp"
-                android:layout_marginBottom="@dimen/_25sdp"
                 android:src="@drawable/gen_panjang_03" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_25sdp"
+                android:text="Daun Spathoglotis plicata memiliki variasi ukuran panjang dan lebar yang berbeda saat dewasa walaupun ditanam di tempat dan keadaan yang sama. Hal itu tentunya menjadikan perbedaan antara Spathoglotis plicata yang memiliki panjang 43 dan lebar 4 cm (gbr a) dengan yang hanya memiliki panjang 33 cm dan lebar 2.5 cm (gbr b). Sehingga panjang dan lebar daun setiap individu sphathoglotis plicata dapat menjadi petunjuk variasi genetik dalam spesies Sphatoglotis plicata."
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_12sdp" />
 
         </LinearLayout>
     </ScrollView>
