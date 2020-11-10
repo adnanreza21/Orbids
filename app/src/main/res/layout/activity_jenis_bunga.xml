@@ -58,7 +58,7 @@
 
             <com.zolad.zoominimageview.ZoomInImageView
                 android:layout_width="@dimen/_250sdp"
-                android:layout_height="@dimen/_340sdp"
+                android:layout_height="@dimen/_200sdp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="@dimen/_5sdp"
                 android:layout_marginTop="@dimen/_5sdp"

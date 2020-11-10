@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".limaM.MengamatiActivity">
+    tools:context=".rangkuman.RangkumanGenActivity">
 
     <TextView
         android:id="@+id/txt11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimaryDark"
-        android:text="Materi"
+        android:text="Rangkuman"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="@dimen/_20sdp"
@@ -22,6 +22,7 @@
         android:layout_height="match_parent"
         android:layout_below="@id/txt11">
 
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -30,56 +31,32 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="Aktivitas 5M"
-                android:textColor="@color/grey"
-                android:textSize="@dimen/_15sdp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/_20sdp"
-                android:layout_marginTop="@dimen/_5sdp"
-                android:text="1. Mengamati"
+                android:text="Keanekaragaman tingkat gen diartikan sebagai keanekaragaman yang timbul karena adanya PERBEDAAN SUSUNAN GEN sehingga menyebabkan variasi antar individu DALAM SATU SPESIES (sifat). CONTOH KEANEKARAGAMAN GENETIK PADA ANGGREK SALAH SATUNYA  TERJADI PADA SPESIES Spathoglotis Plicata."
                 android:textColor="@color/grey"
                 android:textSize="@dimen/_12sdp"
                 android:textStyle="bold" />
-            <com.zolad.zoominimageview.ZoomInImageView
-                android:layout_width="@dimen/_250sdp"
-                android:layout_height="@dimen/_300sdp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="@dimen/_5sdp"
-                android:layout_marginTop="@dimen/_5sdp"
-                android:layout_marginRight="@dimen/_5sdp"
-                android:src="@drawable/gbrmengamati" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/_35sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="Berdasarkan gambar tersebut, dari ke empat bunga diatas apakah terdapat perbedaan ? Atau kesamaan ?"
+                android:text="Berdasarkan penelitian yang pernah dilakukan Suyitno et all (2019) ditemukan variasi morfologi dalam Spathoglotis plicata yang tampak pada panjang dan lebar daun, jumlah rumpun, tinggi tanaman (habitus), ukuran dan variasi warna bunga."
                 android:textColor="@color/grey"
-                android:textSize="@dimen/_12sdp" />
-            <Button
-                android:id="@+id/answer1"
-                android:layout_width="@dimen/_100sdp"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_30sdp"
-                android:layout_marginBottom="@dimen/_20sdp"
-                android:background="@drawable/custom_button_blue"
-                android:clickable="true"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:layout_gravity="center"
-                android:padding="@dimen/_8sdp"
-                android:textAlignment="center"
-                android:text="Lanjut"
-                android:textAllCaps="false"
-                android:textColor="@color/white"
-                android:textSize="@dimen/_14sdp" />
-
-
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Sumber adanya variasi atau faktor penyebab terjadinya variasi tersebut diantaranya yaitu faktor REKOMBINASI GENETIK oleh persilangan variasi genotip (perkawinan). Selain itu variasi juga diakibatkan oleh adanya MUTASI, dan variasi yang timbul dengan adanya ADAPTASI terhadap faktor lingkungan (adanya perubahan struktural-fungsional-dan perilaku)."
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

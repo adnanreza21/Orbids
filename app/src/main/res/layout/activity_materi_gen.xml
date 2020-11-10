@@ -33,25 +33,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="Keanekaragaman tingkat gen diartikan sebagai keanekaragaman yang timbul karena adanya perbedaan susunan gen sehingga menyebabkan variasi antar individu dalam spesies (sifat). Individu di setiap spesies mempunyai jumlah informasi genetik yang terkandung di dalam masing-masing individu. CONTOH KEANEKARAGAMAN GENETIK PADA ANGGREK TERJADI PADA SPESIES Spathoglotis Plicata."
-                android:textColor="@color/grey"
-                android:textSize="@dimen/_12sdp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_5sdp"
-                android:text="Berdasarkan penelitian yang pernah dilakukan Suyitno et all (2019) keanekaragaman genetik dapat dilihat dari beberapa ciri morfologinya. Varian Spathoglotis plicata tampak pada panjang dan lebar daun, jumlah rumpun, tinggi tanaman (habitus), ukuran dan variasi warna bunga."
-                android:textColor="@color/grey"
-                android:textSize="@dimen/_12sdp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_5sdp"
-                android:text="Sumber adanya variasi atau faktor penyebab terjadinya variasi tersebut diantaranya yaitu faktor rekombinasi genetik oleh persilangan variasi genotip (perkawinan). Selain itu variasi juga diakibatkan oleh adanya mutasi, variasi yang timbul dengan adanya adaptasi terhadap faktor lingkungan (adanya perubahan struktural-fungsional-dan perilaku)."
+                android:text="Apa yang dimaksud dengan keanekaragaman tingkat gen ? Untuk mengetahui apa itu keanekaragaman tingkat gen bisa menyimak dan mempelajari dari organ-organ variasi anggrek Spathoglotis Plicata dibawah ini :"
                 android:textColor="@color/grey"
                 android:textSize="@dimen/_12sdp" />
 
@@ -301,6 +283,22 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
+            <Button
+                android:id="@+id/answer1"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_25sdp"
+                android:background="@drawable/custom_button_blue"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:padding="@dimen/_8sdp"
+                android:text="Lanjut"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14sdp" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

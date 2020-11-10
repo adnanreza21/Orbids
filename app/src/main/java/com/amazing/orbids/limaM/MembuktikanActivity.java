@@ -9,12 +9,12 @@ import android.widget.Button;
 
 import com.amazing.orbids.R;
 
-public class MengumpulkanActivity extends AppCompatActivity {
-private static Button button;
+public class MembuktikanActivity extends AppCompatActivity {
+    private static Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mengumpulkan);
+        setContentView(R.layout.activity_membuktikan);
         button = (Button) findViewById(R.id.answer1);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -25,7 +25,7 @@ private static Button button;
     }
 
     public void openMateriActivity() {
-        Intent intent = new Intent(this, MembuktikanActivity.class);
+        Intent intent = new Intent(this, MengkomunikasiActivity.class);
         startActivity(intent);
         finish();
     }

@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.amazing.orbids.R;
 import com.amazing.orbids.kuis.Question;
@@ -65,7 +66,9 @@ public class KuisActivity extends AppCompatActivity {
                 if (mButtonChoice1.getText() == mAnswer) {
                     mScore = mScore + 1;
                     updateQuestion();
+                    Toast.makeText(KuisActivity.this, "Benar", Toast.LENGTH_SHORT).show();
                 } else {
+                    Toast.makeText(KuisActivity.this, "Salah", Toast.LENGTH_SHORT).show();
                     updateQuestion();
                 }
             }
@@ -77,7 +80,9 @@ public class KuisActivity extends AppCompatActivity {
                 if (mButtonChoice2.getText() == mAnswer) {
                     mScore = mScore + 1;
                     updateQuestion();
+                    Toast.makeText(KuisActivity.this, "Benar", Toast.LENGTH_SHORT).show();
                 } else {
+                    Toast.makeText(KuisActivity.this, "Salah", Toast.LENGTH_SHORT).show();
                     updateQuestion();
                 }
             }
@@ -89,7 +94,9 @@ public class KuisActivity extends AppCompatActivity {
                 if (mButtonChoice3.getText() == mAnswer) {
                     mScore = mScore + 1;
                     updateQuestion();
+                    Toast.makeText(KuisActivity.this, "Benar", Toast.LENGTH_SHORT).show();
                 } else {
+                    Toast.makeText(KuisActivity.this, "Salah", Toast.LENGTH_SHORT).show();
                     updateQuestion();
                 }
             }
@@ -101,7 +108,9 @@ public class KuisActivity extends AppCompatActivity {
                 if (mButtonChoice4.getText() == mAnswer) {
                     mScore = mScore + 1;
                     updateQuestion();
+                    Toast.makeText(KuisActivity.this, "Benar", Toast.LENGTH_SHORT).show();
                 } else {
+                    Toast.makeText(KuisActivity.this, "Salah", Toast.LENGTH_SHORT).show();
                     updateQuestion();
                 }
             }
@@ -113,7 +122,9 @@ public class KuisActivity extends AppCompatActivity {
                 if (mButtonChoice5.getText() == mAnswer) {
                     mScore = mScore + 1;
                     updateQuestion();
+                    Toast.makeText(KuisActivity.this, "Benar", Toast.LENGTH_SHORT).show();
                 } else {
+                    Toast.makeText(KuisActivity.this, "Salah", Toast.LENGTH_SHORT).show();
                     updateQuestion();
                 }
             }

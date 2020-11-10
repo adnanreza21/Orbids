@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_20sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="Perhatikan variasi bentuk labellum di bawah ini, apakah terdapat perbedaan ? mengapa demikian ?"
+                android:text="Perhatikan variasi jumlah rumpun di bawah ini, apakah terdapat perbedaan dan persamaan ? Jelaskan alasanmu ?"
                 android:textColor="@color/grey"
                 android:textSize="@dimen/_12sdp"
                 android:textStyle="bold" />

@@ -24,9 +24,9 @@
 
 
         <LinearLayout
-            android:layout_marginBottom="@dimen/_25sdp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_25sdp"
             android:orientation="vertical">
 
             <TextView
@@ -35,9 +35,10 @@
                 android:layout_marginLeft="@dimen/_5sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginBottom="@dimen/_10sdp"
-                android:text="Keanekaragaman tingkat jenis diartikan dengan segala perbedaan yang ditemui pada mahkluk hidup antar jenis atau antar spesies. Contoh dari keanekaragam tingkat jenis pada tumbuhan anggrek bisa dilihat dari organ-organ tumbuhan antar jenis seperti berikut:"
+                android:text="Apa yang dimaksud dengan keanekaragaman tingkat jenis ? Untuk mengetahui apa itu keanekaragaman tingkat jenis bisa menyimak dan mempelajari dari organ-organ tumbuhan antar jenis seperti berikut :"
                 android:textColor="@color/grey"
                 android:textSize="@dimen/_12sdp" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -133,12 +134,13 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_15sdp"
                 android:clipToPadding="false"
                 android:gravity="center"
-                android:layout_marginBottom="@dimen/_25sdp"
                 android:orientation="horizontal">
 
                 <androidx.cardview.widget.CardView
@@ -229,6 +231,23 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
+
+            <Button
+                android:id="@+id/answer1"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_25sdp"
+                android:background="@drawable/custom_button_blue"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:padding="@dimen/_8sdp"
+                android:text="Lanjut"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14sdp" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

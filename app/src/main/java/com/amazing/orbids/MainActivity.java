@@ -16,9 +16,10 @@ import com.amazing.orbids.menu.MateriActivity;
 import com.amazing.orbids.menu.MengenalActivity;
 import com.amazing.orbids.menu.PetunjukActivity;
 import com.amazing.orbids.menu.ProfilActivity;
+import com.amazing.orbids.rangkuman.RangkumanActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    private CardView kdCard,petunjukCard,anggrekCard,materiCard,kuisCard,profilCard,dapusCard,glosaCard;
+    private CardView kdCard,petunjukCard,anggrekCard,materiCard,kuisCard,profilCard,dapusCard,glosaCard,rangkumanCard;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         profilCard = (CardView) findViewById(R.id.card6);
         dapusCard = (CardView) findViewById(R.id.card7);
         glosaCard = (CardView) findViewById(R.id.card8);
+        rangkumanCard = (CardView) findViewById(R.id.card9);
 
         kdCard.setOnClickListener(this);
         petunjukCard.setOnClickListener(this);
@@ -40,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         profilCard.setOnClickListener(this);
         dapusCard.setOnClickListener(this);
         glosaCard.setOnClickListener(this);
+        rangkumanCard.setOnClickListener(this);
 
     }
 
@@ -56,6 +59,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.card6 : i = new Intent(this, ProfilActivity.class);startActivity(i);break;
             case R.id.card7 : i = new Intent(this, DapusActivity.class);startActivity(i);break;
             case R.id.card8 : i = new Intent(this, GlosariumActivity.class);startActivity(i);break;
+            case R.id.card9 : i = new Intent(this, RangkumanActivity.class);startActivity(i);break;
             default:break;
         }
     }

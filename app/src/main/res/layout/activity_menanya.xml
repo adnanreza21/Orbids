@@ -61,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="a. Apasih keanekaragaman itu ?"
+                android:text="a. Mengapa bisa terdapat perbedaan diantara bunga tersebut ?"
                 android:textColor="@color/grey"
                 android:textSize="@dimen/_12sdp" />
 
@@ -70,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="b. Apa itu keanekaragaman jenis ?"
+                android:text="b. Mengapa bisa terdapat persamaan diantara bunga tersebut ?"
                 android:textColor="@color/grey"
                 android:textSize="@dimen/_12sdp" />
 
@@ -79,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="c. Apa itu keanekaragaman genetik?"
+                android:text="c. Dimana letak perbedaan atau persamaan diantara bunga tersebut ?"
                 android:textColor="@color/grey"
                 android:textSize="@dimen/_12sdp" />
 

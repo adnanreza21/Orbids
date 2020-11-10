@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_20sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="4. Mengkomunikasikan"
+                android:text="5. Menyimpulkan"
                 android:textColor="@color/grey"
                 android:textSize="@dimen/_12sdp"
                 android:textStyle="bold" />
@@ -61,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="Guru meminta siswa mempresentasikan hasil belajar menggunakan media berbasis androis di depan kelas kemudain mengaprisiasi hasil pekerjaan siswa."
+                android:text="Guru meminta siswa mempresentasikan/menyimpulkan hasil belajar menggunakan media berbasis androis di depan kelas kemudain mengaprisiasi hasil pekerjaan siswa."
                 android:textColor="@color/grey"
                 android:textSize="@dimen/_12sdp" />
 

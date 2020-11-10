@@ -6,10 +6,17 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".anekagen.GenLabelumActivity"></activity>
+        <activity android:name=".rangkuman.RangkumanGenActivity"></activity>
+        <activity android:name=".rangkuman.RangkumanJenisActivity" />
+        <activity android:name=".rangkuman.RangkumanActivity" />
+        <activity android:name=".anekajenis.LanjutJenisActivity" />
+        <activity android:name=".anekagen.LanjutGenActivity" />
+        <activity android:name=".limaM.MembuktikanActivity" />
+        <activity android:name=".anekagen.GenLabelumActivity" />
         <activity android:name=".anekagen.GenBungaActivity" />
         <activity android:name=".anekagen.GenTinggiActivity" />
         <activity android:name=".anekagen.GenRumpunActivity" />
@@ -30,7 +37,6 @@
         <activity android:name=".limaM.MengumpulkanActivity" />
         <activity android:name=".limaM.MenanyaActivity" />
         <activity android:name=".limaM.MengamatiActivity" />
-        <activity android:name=".materi.MenuGenActivity" />
         <activity android:name=".materi.MateriGenActivity" />
         <activity android:name=".materi.MateriJenisActivity" />
         <activity android:name=".kuis.ResultQuizActivity" />
