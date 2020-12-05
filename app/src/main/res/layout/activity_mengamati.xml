@@ -59,7 +59,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="Berdasarkan gambar tersebut, dari ke empat bunga diatas apakah terdapat perbedaan ? Atau kesamaan ?"
+                android:text="Berdasarkan gambar tersebut, dari ke empat bunga anggrek diatas apakah terdapat perbedaan ? Atau kesamaan ?"
                 android:textColor="@color/grey"
                 android:textSize="@dimen/_12sdp" />
             <Button

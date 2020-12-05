@@ -47,15 +47,6 @@
                 android:textSize="@dimen/_12sdp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/_20sdp"
-                android:layout_marginTop="@dimen/_5sdp"
-                android:text="Variasi genetik pada Spathoglotis Plicata juga terlihat di macam-macam bentuk labellumnya. Terdapat beberapa bentuk labellum pada bunga anggrek diantaranya sebagai berikut:"
-                android:textColor="@color/grey"
-                android:textSize="@dimen/_12sdp" />
-
             <com.zolad.zoominimageview.ZoomInImageView
                 android:layout_width="@dimen/_250sdp"
                 android:layout_height="@dimen/_185sdp"

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".rangkuman.RangkumanJenisActivity">
 
     <TextView
@@ -34,7 +35,7 @@
                 android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:text="Keanekaragaman tingkat jenis diartikan dengan segala perbedaan yang ditemui pada mahkluk hidup ANTAR JENIS ATAU ANTAR SPESIES. Semakin banyak perbedaan (morfologi) yang ditemukan maka semakin jauh kekerabatan antar jenis makhluk hidup tersebut yang artinya itu menujukan KEANEKARAGAMAN TINGKAT JENIS."
-                android:textColor="@color/grey"
+                android:textColor="@color/white"
                 android:textSize="@dimen/_12sdp"
                 android:textStyle="bold" />
         </LinearLayout>

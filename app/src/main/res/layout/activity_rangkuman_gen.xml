@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".rangkuman.RangkumanGenActivity">
 
     <TextView
@@ -34,7 +35,7 @@
                 android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:text="Keanekaragaman tingkat gen diartikan sebagai keanekaragaman yang timbul karena adanya PERBEDAAN SUSUNAN GEN sehingga menyebabkan variasi antar individu DALAM SATU SPESIES (sifat). CONTOH KEANEKARAGAMAN GENETIK PADA ANGGREK SALAH SATUNYA  TERJADI PADA SPESIES Spathoglotis Plicata."
-                android:textColor="@color/grey"
+                android:textColor="@color/white"
                 android:textSize="@dimen/_12sdp"
                 android:textStyle="bold" />
 
@@ -44,7 +45,7 @@
                 android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:text="Berdasarkan penelitian yang pernah dilakukan Suyitno et all (2019) ditemukan variasi morfologi dalam Spathoglotis plicata yang tampak pada panjang dan lebar daun, jumlah rumpun, tinggi tanaman (habitus), ukuran dan variasi warna bunga."
-                android:textColor="@color/grey"
+                android:textColor="@color/white"
                 android:textSize="@dimen/_12sdp"
                 android:textStyle="bold" />
 
@@ -54,7 +55,7 @@
                 android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:text="Sumber adanya variasi atau faktor penyebab terjadinya variasi tersebut diantaranya yaitu faktor REKOMBINASI GENETIK oleh persilangan variasi genotip (perkawinan). Selain itu variasi juga diakibatkan oleh adanya MUTASI, dan variasi yang timbul dengan adanya ADAPTASI terhadap faktor lingkungan (adanya perubahan struktural-fungsional-dan perilaku)."
-                android:textColor="@color/grey"
+                android:textColor="@color/white"
                 android:textSize="@dimen/_12sdp"
                 android:textStyle="bold" />
         </LinearLayout>

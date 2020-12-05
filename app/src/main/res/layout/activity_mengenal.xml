@@ -41,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_5sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="Habitat/cara tumbuh:"
+                android:text="Klasifikasi Anggrek:"
                 android:textColor="@color/grey"
                 android:textSize="@dimen/_12sdp"
                 android:textStyle="bold" />
@@ -52,6 +52,70 @@
                 android:layout_marginLeft="@dimen/_20sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:text="Menurut habitat tempat hidupnya, tanaman anggrek dibedakan menjadi empat kelompok yaitu anggrek epifit, terestrial, saprofit dan anggrek litofit. "
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Habitat/cara tumbuh:"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Kerajaan : Plantae "
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Superdivisi: Spermatophyta"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Divisi : Magnoliophyta "
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Kelas : Liliopsida"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Ordo : Orchidales"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Famili : Orchidaceae "
                 android:textColor="@color/grey"
                 android:textSize="@dimen/_12sdp" />
 

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".menu.GlosariumActivity">
 
     <TextView
@@ -34,8 +35,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="1. Tunas : tumbuhan muda yang baru timbul/bakal cabang"
-                android:textColor="@color/grey"
+                android:text="Lateral: disebelah sisi punggung"
+                android:textColor="@color/white"
                 android:textSize="@dimen/_12sdp" />
 
             <TextView
@@ -43,8 +44,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="2. Sepal : daun yang berubah bentuk menjadi kelopak bunga"
-                android:textColor="@color/grey"
+                android:text="Labellum: mahkota bunga yang mengalami modifikasi menjadi bentuk bibir"
+                android:textColor="@color/white"
                 android:textSize="@dimen/_12sdp" />
 
             <TextView
@@ -52,8 +53,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="3. Petal : daun mahkota"
-                android:textColor="@color/grey"
+                android:text="Subulate: berbentuk jarum"
+                android:textColor="@color/white"
                 android:textSize="@dimen/_12sdp" />
 
             <TextView
@@ -61,8 +62,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="4. Dorsal : bagian punggung"
-                android:textColor="@color/grey"
+                android:text="Linear: berbentuk pita"
+                android:textColor="@color/white"
                 android:textSize="@dimen/_12sdp" />
 
             <TextView
@@ -70,8 +71,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="5. Lateral : di sebelah sisi"
-                android:textColor="@color/grey"
+                android:text="Oblong: berbentuk lonjong"
+                android:textColor="@color/white"
                 android:textSize="@dimen/_12sdp" />
 
             <TextView
@@ -79,8 +80,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="6. Monokotil : tumbuhan biji berkeping satu"
-                android:textColor="@color/grey"
+                android:text="Eliptic: berbentuk jorong/bujur telur"
+                android:textColor="@color/white"
                 android:textSize="@dimen/_12sdp" />
 
             <TextView
@@ -88,8 +89,54 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="7. Sukulen : tumbuhan yang batang atau daunnya berdaging tebal"
-                android:textColor="@color/grey"
+                android:text="Spayhulate: berbentuk berbentuk sendok"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Lancelate: berbentuk lanset"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Oblanceolate: berbentuk kebalikan lanset"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Ovate: berbentuk bulat telur"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Obovate: berbentuk bulat telur terbalik"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_25sdp"
+                android:text="Trullate: berbentuk sekop"
+                android:textColor="@color/white"
                 android:textSize="@dimen/_12sdp" />
 
 

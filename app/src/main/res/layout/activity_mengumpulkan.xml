@@ -61,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="Siswa menjawab pertanyaan sederhana disetiap materi tentang keanekaragaman jenis dan genetik dengan bantuan media berbasis android."
+                android:text="Siswa menjawab pertanyaan sederhana dan mengisi LKPD yang disediakan disetiap materi tentang keanekaragaman tingkat jenis dan tingkat genetik dengan bantuan media berbasis android."
                 android:textColor="@color/grey"
                 android:textSize="@dimen/_12sdp" />
 

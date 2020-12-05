@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".menu.DapusActivity">
 
     <TextView
@@ -33,8 +34,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_20sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="Widiastoety, D., N. Solvia dan M. Soedarjo. 2010. Potensi anggrek Dendrobium dalam meningkatkan variasi dan kualitas anggrek bunga potong. Jurnal Litbang Pertanian 29(3): 101-106. "
-                android:textColor="@color/grey"
+                android:text="Balithi. 2011. Panduan Karakterisasi Tanaman Hias."
+                android:textColor="@color/white"
                 android:textSize="@dimen/_12sdp" />
 
             <TextView
@@ -42,8 +43,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/_20sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:text="Widiastoety, D. dan Purbadi. 2003. Pengaruh Bubur Ubi kayu dan Ubi jalar Terhadap Pertumbuhan Planlet Anggrek Dendrobium. http://www.iptek.net.id. Diakses tanggal 2 Juni 2012 Arie wijayani, 2016 :19"
-                android:textColor="@color/grey"
+                android:text="BiOSC. 2017. Anggrek Yogyakarta. Yogyakarta: Fakultas Biologi UGM."
+                android:textColor="@color/white"
                 android:textSize="@dimen/_12sdp" />
 
             <TextView
@@ -52,7 +53,43 @@
                 android:layout_marginLeft="@dimen/_20sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:text="Irnaningtyas. 2013. Biologi Untuk SMA/MA Kelas X. Jakarta: Erlangga."
-                android:textColor="@color/grey"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Sri Hartati dan Linayanti D. 2015. Karakterisasi Anggrek Alam secara Morfologi dalam Rangka Pelestarian Plasma Nutfah. Jurnal Agron Indonesia 43(2):133-139."
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Suyitno et all. 2018. Phenotypic variation and genetic alteration of Spathoglottis plicata."
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Resulted from in vitro cultured seed irradiated with X-Ray. Jurnal BIODIVERSITAS 19(5): 1642-1648."
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Tjitrosoepomo, G. 2007. Taksonomi Tumbuhan (Spermatohyta). Gadjah Mada University Press. Yogyakarta."
+                android:textColor="@color/white"
                 android:textSize="@dimen/_12sdp" />
 
             <TextView
@@ -61,8 +98,8 @@
                 android:layout_marginLeft="@dimen/_20sdp"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:layout_marginBottom="@dimen/_20sdp"
-                android:text="Suyitno et all. 2018. Phenotypic variation and genetic alteration of Spathoglottis plicata resulted from in vitro cultured seed irradiated with X-Ray. Jurnal BIODIVERSITAS 19(5): 1642-1648."
-                android:textColor="@color/grey"
+                android:text="Widiastoety, D. dan Purbadi. 2003. Pengaruh Bubur Ubi kayu dan Ubi jalar Terhadap Pertumbuhan Planlet Anggrek Dendrobium. http://www.iptek.net.id. Diakses tanggal 2 Juni 2020."
+                android:textColor="@color/white"
                 android:textSize="@dimen/_12sdp" />
 
         </LinearLayout>

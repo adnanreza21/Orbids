@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/colorPrimary"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".kuis.ResultQuizActivity">
 
     <TextView
@@ -18,10 +18,11 @@
         android:textColor="@color/white"
         android:textSize="@dimen/_20sdp"
         android:textStyle="bold" />
+
     <ScrollView
-        android:layout_below="@id/txt22"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_below="@id/txt22">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -39,6 +40,19 @@
                 android:text="Nilaimu : "
                 android:textColor="@color/white"
                 android:textSize="@dimen/_37sdp" />
+
+            <TextView
+                android:id="@+id/textKKM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt22"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:gravity="center"
+                android:text="sss"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
 
             <Button
                 android:id="@+id/but1"

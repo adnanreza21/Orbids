@@ -21,11 +21,18 @@ public class ResultQuizActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result_quiz);
         TextView txtScore = (TextView) findViewById(R.id.textScore);
+        TextView txtKKM = (TextView) findViewById(R.id.textKKM);
 
         Intent intent = getIntent();
         int score = intent.getIntExtra("score", 0);
         int a = 10;
         txtScore.setText("Nilaimu :\n" + score*a);
+
+        if (score >= 8){
+                txtKKM.setText("Selamat Nilai Anda sudah mencapai KKM ");
+        }else if (score <8){
+            txtKKM.setText("Nilai Anda belum mencapai KKM silahkan belajar lagi menggunakan Aplikasi ORBIDS");
+        }
 
     }
 
